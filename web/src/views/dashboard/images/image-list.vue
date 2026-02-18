@@ -210,8 +210,8 @@ const storageOptions = [
     label: '本地',
   },
   {
-    value: '七牛云',
-    label: '七牛云',
+    value: 'Cloudflare',
+    label: 'Cloudflare',
   },
 ]
 
