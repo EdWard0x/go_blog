@@ -105,26 +105,49 @@ export const updateQQ = (data: QQ): Promise<ApiResponse<undefined>> => {
     })
 }
 
-export interface Qiniu {
-    zone: string;
-    bucket: string;
-    img_path: string;
-    access_key: string;
-    secret_key: string;
-    use_https: boolean;
-    use_cdn_domains: boolean;
+// export interface Qiniu {
+//     zone: string;
+//     bucket: string;
+//     img_path: string;
+//     access_key: string;
+//     secret_key: string;
+//     use_https: boolean;
+//     use_cdn_domains: boolean;
+// }
+//
+// export const getQiniu = (): Promise<ApiResponse<Qiniu>> => {
+//     return service({
+//         url: '/config/qiniu',
+//         method: 'get',
+//     })
+// }
+//
+// export const updateQiniu = (data: Qiniu): Promise<ApiResponse<undefined>> => {
+//     return service({
+//         url: '/config/qiniu',
+//         method: 'put',
+//         data: data,
+//     })
+// }
+
+export interface Cf {
+    accessKeyId: string;
+    accessKeySecret: string;
+    accountId: string;
+    bucketName: string;
+    cdn: string;
 }
 
-export const getQiniu = (): Promise<ApiResponse<Qiniu>> => {
+export const getCf = (): Promise<ApiResponse<Cf>> => {
     return service({
-        url: '/config/qiniu',
+        url: '/config/cf',
         method: 'get',
     })
 }
 
-export const updateQiniu = (data: Qiniu): Promise<ApiResponse<undefined>> => {
+export const updateCf = (data: Cf): Promise<ApiResponse<undefined>> => {
     return service({
-        url: '/config/qiniu',
+        url: '/config/cf',
         method: 'put',
         data: data,
     })

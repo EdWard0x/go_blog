@@ -59,6 +59,10 @@ const ossTypeOptions =[
     value: 'qiniu',
     label: '七牛',
   },
+  {
+    value: 'cloudflare',
+    label: 'cloudflare',
+  },
 ]
 
 const getSystemInfo = async () => {

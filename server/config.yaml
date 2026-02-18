@@ -4,6 +4,13 @@ captcha:
     length: 6
     max_skew: 0.7
     width: 240
+cf:
+    enabled: true
+    bucketname: gvb
+    accountid: 5fc9dc2aa7b67503c60fb76703996fa7
+    accesskeyid: ad914b48e202396e20149d3c597c8d69
+    accesskeysecret: b09e7aa29982b875509b1ea9f1b6264df8b1dc8fde1d9ba19ca8e87e84bfd413
+    cdn: ""
 cloudflare:
     accesskeyid: ad914b48e202396e20149d3c597c8d69
     accesskeysecret: b09e7aa29982b875509b1ea9f1b6264df8b1dc8fde1d9ba19ca8e87e84bfd413
@@ -81,24 +88,24 @@ upload:
     path: uploads
     size: 20
 website:
-    logo: https://pic.hiding.top/pic-node1/main/imageslogo16x16.png
-    full_logo: https://pic.hiding.top/pic-node1/main/imagesfull_logo.png
-    title: avein的个人博客
-    slogan: avein的博客
-    slogan_en: avein blog
-    description: 记录笔记的blog
-    version: 1.0.0
-    created_at: "2025-10-10"
-    icp_filing: icp备案号
-    public_security_filing: 公安备案号
+    address: 山东
     bilibili_url: https://space.bilibili.com/xxx
+    created_at: "2025-10-10"
+    description: 记录笔记的blog
+    email: 1303541051@qq.com
+    full_logo: https://pic.hiding.top/pic-node1/main/imagesfull_logo.png
     gitee_url: https://gitee.com/xxx
     github_url: https://github.com/xxx/
-    name: avein
+    icp_filing: icp备案号
     job: 三天打鱼两天晒网
-    address: 山东
-    email: 1303541051@qq.com
+    logo: https://pic.hiding.top/pic-node1/main/imageslogo16x16.png
+    name: avein
+    public_security_filing: 公安备案号
     qq_image: ""
+    slogan: avein的博客
+    slogan_en: avein blog
+    title: avein的个人博客
+    version: 1.0.0
     wechat_image: ""
 zap:
     filename: log/go_blog.log

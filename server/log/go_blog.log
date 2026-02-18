@@ -242,3 +242,12 @@
 {"level":"INFO","time":"2026-02-18T08:00:00.001+0800","caller":"initialize/cron.go:17","msg":"run","keysAndValues":["now","2026-02-18T08:00:00.0003443+08:00","entry",1,"next","2026-02-18T09:00:00+08:00"]}
 {"level":"INFO","time":"2026-02-18T08:00:00.001+0800","caller":"initialize/cron.go:17","msg":"run","keysAndValues":["now","2026-02-18T08:00:00.0003443+08:00","entry",2,"next","2026-02-18T09:00:00+08:00"]}
 {"level":"ERROR","time":"2026-02-18T08:00:00.713+0800","caller":"task/enter.go:19","msg":"Failed to get hot list:","error":"failed to get data"}
+{"level":"INFO","time":"2026-02-18T10:26:37.088+0800","caller":"core/server.go:25","msg":"server run success on ","address":"0.0.0.0:8080"}
+{"level":"INFO","time":"2026-02-18T10:26:37.088+0800","caller":"initialize/cron.go:17","msg":"start","keysAndValues":null}
+{"level":"INFO","time":"2026-02-18T10:26:37.094+0800","caller":"initialize/cron.go:17","msg":"schedule","keysAndValues":["now","2026-02-18T10:26:37.0943746+08:00","entry",1,"next","2026-02-18T11:00:00+08:00"]}
+{"level":"INFO","time":"2026-02-18T10:26:37.095+0800","caller":"initialize/cron.go:17","msg":"schedule","keysAndValues":["now","2026-02-18T10:26:37.0943746+08:00","entry",2,"next","2026-02-18T11:00:00+08:00"]}
+{"level":"INFO","time":"2026-02-18T10:26:37.095+0800","caller":"initialize/cron.go:17","msg":"schedule","keysAndValues":["now","2026-02-18T10:26:37.0943746+08:00","entry",3,"next","2026-02-19T00:00:00+08:00"]}
+{"level":"ERROR","time":"2026-02-18T10:29:59.535+0800","caller":"api/user.go:352","msg":"Failed to get user weather","error":"no live weather data available"}
+{"level":"ERROR","time":"2026-02-18T10:32:40.879+0800","caller":"api/user.go:352","msg":"Failed to get user weather","error":"no live weather data available"}
+{"level":"ERROR","time":"2026-02-18T10:35:13.135+0800","caller":"api/user.go:352","msg":"Failed to get user weather","error":"no live weather data available"}
+{"level":"ERROR","time":"2026-02-18T10:35:14.630+0800","caller":"api/user.go:352","msg":"Failed to get user weather","error":"no live weather data available"}

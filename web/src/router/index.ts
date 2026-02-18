@@ -2,6 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import {useUserStore} from "@/stores/user";
 import {useLayoutStore} from "@/stores/layout";
 
+// @ts-ignore
 const routes = [
     {
         path: '/',
@@ -270,12 +271,20 @@ const routes = [
                                     title: "QQ登录配置"
                                 }
                             },
+                            // {
+                            //     path: "qiniu-config",
+                            //     name: "qiniu-config",
+                            //     component: () => import('@/views/dashboard/system/config/qiniu-config.vue'),
+                            //     meta: {
+                            //         title: "七牛云配置"
+                            //     }
+                            // },
                             {
-                                path: "qiniu-config",
-                                name: "qiniu-config",
-                                component: () => import('@/views/dashboard/system/config/qiniu-config.vue'),
+                                path: "cf-config",
+                                name: "cf-config",
+                                component: () => import('@/views/dashboard/system/config/cf-config.vue'),
                                 meta: {
-                                    title: "七牛云配置"
+                                    title: "cloudflare配置"
                                 }
                             },
                             {

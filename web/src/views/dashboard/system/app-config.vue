@@ -40,10 +40,14 @@ const menuList: MenuItem[] = [
     title: "QQ登录配置",
     name: "qq-config",
   },
+  // {
+  //
+  //   title: "七牛云配置",
+  //   name: "qiniu-config",
+  // },
   {
-
-    title: "七牛云配置",
-    name: "qiniu-config",
+    title: "cloudflare配置",
+    name: "cf-config",
   },
   {
     title: "jwt配置",
