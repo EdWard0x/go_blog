@@ -70,7 +70,7 @@ func (configService *ConfigService) UpdateQQ(qq config.QQ) error {
 
 func (configService *ConfigService) UpdateCF(CF config.Cloudflare) error {
 	global.Config.CF = CF
-	viper.Set("cf", CF)
+	viper.Set("cloudflare", CF)
 	return utils.SaveYAML()
 }
 
