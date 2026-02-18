@@ -21,4 +21,6 @@ Thumbs.db
 # 忽略环境配置
 .env
 .env.local
-.yaml
+
+
+*.yaml
