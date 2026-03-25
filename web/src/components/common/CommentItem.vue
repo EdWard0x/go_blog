@@ -84,7 +84,7 @@ const getTime = (date: Date): string => {
 
 const replyFlag = ref(0)
 const content = ref('')
-const numbers = ref(Array.from({length: 50}, (_, i) => (i + 1).toString().padStart(2, '0')));
+const numbers = ref(Array.from({length: 8}, (_, i) => (i + 1).toString().padStart(2, '0')));
 
 const layoutStore = useLayoutStore()
 
